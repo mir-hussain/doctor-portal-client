@@ -4,4 +4,39 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: var(--p-ff);
+}
+
+:root {
+  --p-ff: "Poppins", sans-serif;
+  --s-ff: "Roboto", sans-serif;
+
+  --blue: #3a4256;
+  --gray: #888888;
+  --cyan: #1cc7c1;
+
+  --gradient: #19d3ae, #0fcfec;
+
+  --br: 5px;
+  --br-m: 10px;
+  --br-l: 15px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.primary-btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--br);
+  background-image: linear-gradient(45deg, var(--gradient));
 }
