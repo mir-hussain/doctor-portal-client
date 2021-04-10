@@ -1,0 +1,15 @@
+nav {
+  height: 4.5rem;
+  width: 100%;
+}
+
+nav > ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav > ul > li {
+  margin: 0 2rem;
+}

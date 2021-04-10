@@ -1,0 +1,19 @@
+import React from "react";
+import "./Navbar.css";
+
+const Navbar = () => {
+  return (
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Dental Service</li>
+        <li>Review</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
