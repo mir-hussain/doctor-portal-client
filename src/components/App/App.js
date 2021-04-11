@@ -1,7 +1,7 @@
 //css
 import "./App.css";
 //react-router-dom
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //components
 import Home from "../Home/Home";
 import About from "../About/About";
@@ -9,7 +9,7 @@ import DentalService from "../DentalService/DentalService";
 import Reviews from "../Reviews/Reviews";
 import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
-import Navbar from "../Home/Header/Navbar/Navbar";
+import Navbar from "../SharedComponents/Navbar/Navbar";
 function App() {
   return (
     <Router>

@@ -27,8 +27,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link className='text-white' to='/reviews'>
-            Reviews
+          <Link className='text-white' to='/blog'>
+            Blog
           </Link>
         </li>
         <li>
