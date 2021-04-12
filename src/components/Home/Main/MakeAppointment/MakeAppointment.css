@@ -1,0 +1,33 @@
+.make-appointment-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.make-appointment-content {
+  background-color: var(--blue);
+  height: 60%;
+  display: flex;
+  position: relative;
+}
+
+.make-appointment-content > img {
+  height: 600px;
+  transform: translateY(-177px);
+}
+
+.make-appointment-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 0 3rem;
+}
+
+.make-appointment-text > h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}

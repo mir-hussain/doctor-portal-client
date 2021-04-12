@@ -21,7 +21,7 @@
 .service-card {
   width: 300px;
   height: 300px;
-  border: 1px solid var(--cyan);
+  /* border: 1px solid var(--cyan); */
   border-radius: var(--br);
   padding: 1.5rem;
   display: flex;
